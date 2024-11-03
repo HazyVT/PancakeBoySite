@@ -1,10 +1,8 @@
 import { Box, Center, Heading, Icon, Image, Text } from "@chakra-ui/react"
-import { useState } from "react"
 import { BsInstagram } from "react-icons/bs"
 
 function App() {
 
-  const [ mode, setMode ] = useState("light");
   
   return (
     <Box w='100vw' h='100vh' bgColor={'white'} color={'black'}>
