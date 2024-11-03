@@ -10,7 +10,7 @@ function App() {
     <Box w='100vw' h='100vh' bgColor={'white'} color={'black'}>
       <Box w='100vw' h={16} display='flex' alignItems='center' justifyContent={'space-between'} padding={12}>
         <a href="#"><Image src={"logo.png"} w={16} cursor="pointer" /></a>
-        <Box fontWeight={800}>
+        <Box fontWeight={800} fontSize={20}>
           <Text cursor={'pointer'}>Catalog</Text>
         </Box>
       </Box>
