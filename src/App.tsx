@@ -1,4 +1,5 @@
 import { Box, Center, Heading, Icon, Image, Text } from "@chakra-ui/react"
+import Marquee from "react-fast-marquee"
 import { BsInstagram } from "react-icons/bs"
 
 function App() {
@@ -12,8 +13,8 @@ function App() {
           <Text cursor={'pointer'}>Catalog</Text>
         </Box>
       </Box>
-      <Box w='100vw' h={16} bgColor='#B9A28C' fontSize={24} fontWeight={800} display='flex' alignItems={'center'} color='white'>
-        <marquee>Pancake Boy is currently a work in progress</marquee>
+      <Box w='100vw' h={'6vh'} bgColor='#B9A28C' fontSize={'2vh'} fontWeight={800} display='flex' alignItems={'center'} color='white'>
+        <Marquee autoFill={false}>Pancake Boy is currently a work in progress.</Marquee>
       </Box>
       <Center>
         <Box marginTop={16} color="#B9A28C">
