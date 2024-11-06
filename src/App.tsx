@@ -8,7 +8,7 @@ function App() {
   return (
     <Box w='100vw' h='100vh' bgColor={'white'} color={'black'}>
       <Box w='100vw' h={16} display='flex' alignItems='center' justifyContent={'space-between'} padding={12}>
-        <a href="#"><Image src={"img.jpg"} w={24} cursor="pointer" transform={'scaleX(-1)'} /></a>
+        <a href="#"><Image src={"boy.png"} w={24} cursor="pointer" transform={'scaleX(-1)'} /></a>
         <Box fontWeight={800} fontSize={20}>
           <Text cursor={'pointer'}>Catalog</Text>
         </Box>
